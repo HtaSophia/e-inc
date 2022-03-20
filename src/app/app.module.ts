@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { NavbarComponent } from './core/navbar/navbar.component';
+import { NotFoundComponent } from './core/not-found/not-found.component';
 
 @NgModule({
-    declarations: [AppComponent, NavbarComponent],
+    declarations: [AppComponent, NavbarComponent, NotFoundComponent],
     imports: [
         BrowserModule,
         AppRoutingModule,

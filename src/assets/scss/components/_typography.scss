@@ -2,6 +2,18 @@
 // Fonts
 //
 
+body {
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+}
+
+//
+// Fonts Colors
+//
+
 .c-text-primary {
     color: $primary-color !important;
+}
+
+.c-text-error {
+    color: $error-color !important;
 }
