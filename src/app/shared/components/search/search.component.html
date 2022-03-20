@@ -1,0 +1,17 @@
+<form [formGroup]="searchForm" class="c-search">
+    <div class="input-group">
+        <input
+            id="search"
+            name="search"
+            aria-label="barra de pesquisa"
+            class="form-control c-search_input"
+            formControlName="search"
+            [placeholder]="placeholder"
+            (keyup.enter)="onPressEnter()"
+        />
+
+        <button class="btn" type="button">
+            <img src="assets/icons/search-outline.svg" height="20" alt="ícone de pesquisa" />
+        </button>
+    </div>
+</form>

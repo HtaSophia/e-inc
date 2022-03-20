@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
     declarations: [AppComponent, NavbarComponent, NotFoundComponent],
@@ -18,6 +19,7 @@ import { NotFoundComponent } from './core/not-found/not-found.component';
             // or after 30 seconds (whichever comes first).
             registrationStrategy: 'registerWhenStable:30000',
         }),
+        SharedModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
