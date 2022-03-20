@@ -3,6 +3,16 @@
 //
 
 .c-btn-primary {
-    color: $snow;
-    background-color: $primary-color;
+    color: $white !important;
+    background-color: $primary-color !important;
+}
+
+.c-btn-outline-danger {
+    color: $error-color !important;
+    border-color: $error-color !important;
+
+    &:hover {
+        color: $white !important;
+        background-color: $error-color;
+    }
 }
