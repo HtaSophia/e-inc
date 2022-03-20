@@ -7,6 +7,7 @@ import { environment } from '../environments/environment';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
 import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
     declarations: [AppComponent, NavbarComponent, NotFoundComponent],
@@ -20,6 +21,7 @@ import { SharedModule } from './shared/shared.module';
             registrationStrategy: 'registerWhenStable:30000',
         }),
         SharedModule,
+        HomeModule,
     ],
     providers: [],
     bootstrap: [AppComponent],
