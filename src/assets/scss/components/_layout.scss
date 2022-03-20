@@ -1,0 +1,35 @@
+//
+// General
+//
+
+body {
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+}
+
+.wrapper {
+    max-width: 1200px;
+}
+
+//
+// Navbar
+//
+
+.navbar {
+    box-shadow: 0rem 0rem 1rem $snow;
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-weight: bold;
+                color: $primary-color !important;
+                border-radius: 10%;
+
+                &:hover,
+                &:active {
+                    color: white !important;
+                    background-color: $secondary-color !important;
+                }
+            }
+        }
+    }
+}
