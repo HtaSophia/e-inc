@@ -10,11 +10,11 @@ html {
 .wrapper {
     max-width: 1200px;
     margin: auto;
+}
 
-    &-main {
-        height: 100%;
-        padding-top: 63px;
-    }
+.main {
+    height: 100%;
+    padding-top: 80px;
 }
 
 //
@@ -23,6 +23,7 @@ html {
 
 .navbar {
     box-shadow: 0rem 0rem 1rem lightgray;
+    background-color: $white;
 
     .navbar-nav {
         .nav-item {
