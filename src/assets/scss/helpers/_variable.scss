@@ -1,15 +1,18 @@
 // ======================================================
 // Colors
 // ======================================================
-$white: #ffffff;
-$red: #ec2323;
-$yellow: #f9db6d;
+
 $dark-green: #008037;
 $light-green: #99d5c9;
-$purple-navy: #464d77;
+$dark-yellow: #ffc444;
+$light-yellow: #f9db6d;
+
+$purple: #800049;
+$red: #ec2323;
+$white: #ffffff;
 
 $primary-color: $dark-green;
 $secondary-color: $light-green;
 
-$error-color: #ec2323;
-$warning-color: #f9db6d;
+$error-color: $red;
+$warning-color: $light-yellow;
