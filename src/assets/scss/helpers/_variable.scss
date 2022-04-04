@@ -1,11 +1,19 @@
 // ======================================================
 // Colors
 // ======================================================
-$purple-navy: #464D77;
-$naples-yellow: #F9DB6D;
-$forest-green: #008037;
-$snow: #F4EDED;
-$middle-blue-green: #99D5C9;
 
-$primary-color: $forest-green;
-$secondary-color: $middle-blue-green;
+$dark-green: #008037;
+$light-green: #99d5c9;
+$dark-yellow: #ffc444;
+$light-yellow: #f9db6d;
+$gray: #414141;
+
+$purple: #800049;
+$red: #ec2323;
+$white: #ffffff;
+
+$primary-color: $dark-green;
+$secondary-color: $light-green;
+
+$error-color: $red;
+$warning-color: $light-yellow;

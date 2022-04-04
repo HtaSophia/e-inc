@@ -1,0 +1,39 @@
+.c-welcome {
+    .b-infos {
+        flex: 1;
+        flex-basis: auto;
+
+        &__subtitle {
+            max-width: 30rem;
+            margin: auto;
+        }
+
+        .btn {
+            padding: 0.4rem 1rem !important;
+
+            i {
+                vertical-align: middle;
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    .b-image {
+        flex: 1;
+        flex-basis: auto;
+
+        img {
+            max-height: 400px;
+        }
+
+        span {
+            font-size: 10px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .b-infos, .b-image {
+            flex-basis: 0%;
+        }
+    }
+}

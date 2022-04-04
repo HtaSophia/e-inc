@@ -1,0 +1,5 @@
+<div class="c-topic-list row g-4">
+    <div class="b-card c-text-subtitle col-md-6 col-lg-3" *ngFor="let topic of topics; trackBy: trackByTopic">
+        <app-topic-card [topic]="topic" (onTopicCardClick)="onTopicCardClick($event)"></app-topic-card>
+    </div>
+</div>

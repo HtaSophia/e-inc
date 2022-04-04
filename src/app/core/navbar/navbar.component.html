@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid wrapper">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="assets/images/logo-without-text.png" width="80" class="img-fluid me-2" alt="" />
+        <a class="navbar-brand d-flex align-items-center" [routerLink]="['home']">
+            <img src="assets/images/logo.png" width="80" class="img-fluid me-2" alt="" />
             <span class="c-text-primary">E-INC</span>
         </a>
 
@@ -12,18 +12,22 @@
             data-bs-target="#navbarContent"
             aria-controls="navbarContent"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="menu de navegação"
         >
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse text-center justify-content-end" id="navbarContent">
+        <div class="collapse navbar-collapse text-center justify-content-between" id="navbarContent">
+            <div class="b-search flex-grow-1 my-2 my-lg-0 px-lg-5">
+                <app-search></app-search>
+            </div>
+
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['.']" routerLinkActive="active">Tópicos</a>
+                    <a class="nav-link" [routerLink]="['topics']" routerLinkActive="active">Tópicos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['.']" routerLinkActive="active">Contatos</a>
+                    <a class="nav-link" [routerLink]="['contact']" routerLinkActive="active">Contatos</a>
                 </li>
             </ul>
         </div>
