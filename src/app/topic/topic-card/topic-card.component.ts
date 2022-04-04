@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Topic } from '../topic';
 
 @Component({
@@ -9,4 +9,11 @@ import { Topic } from '../topic';
 export class TopicCardComponent {
     @Input()
     public topic!: Topic;
+
+    @Output()
+    public onTopicCardClick = new EventEmitter<string>();
+
+    public onCardClick(): void {
+        this.onTopicCardClick.emit(this.topic.id);
+    }
 }
