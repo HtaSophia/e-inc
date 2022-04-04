@@ -19,7 +19,7 @@ export class TopicComponent implements OnInit {
 
     public onTopicCardClick(topicId: string): void {
         void this.router.navigate(['articles'], {
-            queryParams: { topic: topicId },
+            queryParams: { topicId },
         });
     }
 }

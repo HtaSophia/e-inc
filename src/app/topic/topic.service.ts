@@ -8,6 +8,10 @@ import { Topic } from './topic';
 export class TopicService {
     private topics: Topic[] = TOPICS;
 
+    public getById(id: string): Topic | undefined {
+        return this.topics.find((topic) => topic.id === id);
+    }
+
     public getAll(): Topic[] {
         return this.topics;
     }

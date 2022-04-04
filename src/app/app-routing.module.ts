@@ -10,6 +10,11 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'topics', component: TopicComponent },
     { path: 'articles', loadChildren: async () => (await import('./article/article.module')).ArticleModule },
+    {
+        path: 'article',
+        loadChildren: async () =>
+            (await import('./article/article-details/article-details.module')).ArticleDetailsModule,
+    },
     { path: '**', component: NotFoundComponent },
 ];
 
