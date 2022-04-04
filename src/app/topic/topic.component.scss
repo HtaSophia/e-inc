@@ -1,0 +1,14 @@
+.c-topic {
+    background: right top / 10rem no-repeat url('../../assets/images/topic/abc.jpeg');
+
+    .b-header {
+        max-width: 60%;
+    }
+
+    @media (min-width: 768px) {
+        .b-header {
+            text-align: center;
+            max-width: 100% !important;
+        }
+    }
+}

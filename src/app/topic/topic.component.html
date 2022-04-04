@@ -1,1 +1,10 @@
-<p>topic works!</p>
+<div class="wrapper c-topic py-5 px-3 px-lg-2">
+    <div class="b-header mb-5">
+        <h3 class="c-text-primary"><b>Tópicos</b></h3>
+        <h6 class="c-text-subtitle">Escolha um dos tópicos para visualizar os artigos relacionados</h6>
+    </div>
+
+    <div class="b-body">
+        <app-topic-list [topics]="topics" (onCardClick)="onTopicCardClick($event)"></app-topic-list>
+    </div>
+</div>
