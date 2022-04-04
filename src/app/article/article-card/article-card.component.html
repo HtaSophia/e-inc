@@ -1,1 +1,5 @@
-<p>article-card works!</p>
+<div class="c-article-card py-2 px-3" (click)="onCardClick()" [style.background-color]="backgroundColor">
+    <span class="c-article-card__title">
+        <b>{{ article?.title }}</b>
+    </span>
+</div>
