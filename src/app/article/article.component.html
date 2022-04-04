@@ -1,0 +1,20 @@
+<div class="wrapper c-article py-5 px-3 px-lg-2">
+    <div class="b-header text-center p-4" ngClass="{{ pageInfo.hasSearch ? 'rectangle' : 'polygon' }}">
+        <h3>
+            <b>{{ pageInfo.title }}</b>
+        </h3>
+        <h6 class="c-text-subtitle">
+            {{ pageInfo.hasSearch ? 'Buscar por:' : 'Escolha um dos artigos para realizar a leitura dele' }}
+        </h6>
+    </div>
+
+    <div class="b-body d-flex flex-wrap-reverse">
+        <div class="b-article-list">
+            <app-article-list [articles]="articles" (onCardClick)="onArticleCardClick($event)"></app-article-list>
+        </div>
+
+        <div class="b-body__image">
+            <img [src]="pageInfo.image" alt="Imagem do tópico pesquisado" class="img-fluid" />
+        </div>
+    </div>
+</div>

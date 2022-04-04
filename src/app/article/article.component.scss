@@ -1,0 +1,44 @@
+.c-article {
+    .b-header {
+        margin-bottom: 5rem !important;
+
+        &.polygon {
+            background: #f9eed9;
+            box-shadow: 0px 0px 10px #ffc444;
+            border-radius: 10px;
+            max-width: 40rem;
+        }
+
+        &.rectangle {
+            display: flex;
+            flex-direction: column-reverse;
+            background: #c1d5e7;
+            box-shadow: 0px 0px 10px #003d75;
+        }
+    }
+
+    .b-body {
+        .b-article-list {
+            flex: 2;
+        }
+
+        &__image {
+            flex: 1;
+            text-align: center;
+
+            img {
+                margin-top: -3rem !important;
+                max-height: 15rem !important;
+                min-width: 15rem !important;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .b-header {
+            &.polygon {
+                clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+            }
+        }
+    }
+}

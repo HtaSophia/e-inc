@@ -1,0 +1,13 @@
+.c-article-card {
+    box-shadow: 2px 2px 6px #c8c8c8;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        color: white !important;
+    }
+
+    &.disabled {
+        pointer-events: none !important;
+    }
+}
