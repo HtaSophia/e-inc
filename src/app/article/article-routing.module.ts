@@ -7,7 +7,7 @@ const routes: Routes = [
     {
         path: '',
         component: ArticleComponent,
-        resolve: { article: ArticleResolver },
+        resolve: { articles: ArticleResolver },
     },
 ];
 
