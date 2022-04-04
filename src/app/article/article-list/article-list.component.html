@@ -1,1 +1,11 @@
-<p>article-list works!</p>
+<div class="c-article-list">
+    <div *ngIf="articles.length; else noArticles">
+        <div class="b-card c-text-subtitle mb-3" *ngFor="let article of articles; trackBy: trackByArticle">
+            <app-article-card [article]="article" (onArticleCardClick)="onArticleCardClick($event)"></app-article-card>
+        </div>
+    </div>
+
+    <ng-template class="b-card c-text-subtitle mb-3" #noArticles>
+        <h4>Nenhum artigo encontrado</h4>
+    </ng-template>
+</div>
