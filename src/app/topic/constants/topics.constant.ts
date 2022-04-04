@@ -1,7 +1,7 @@
 import { Topic } from '../topic';
 
 export const TOPICS: Topic[] = [
-    { id: '0', image: 'all-articles.jpg', title: 'Todos Artigos' },
+    { id: 'all', image: 'all-articles.jpg', title: 'Todos Artigos' },
     { id: '1', image: 'information.jpg', title: 'Informações Gerais' },
     { id: '2', image: 'social-interaction.jpg', title: 'Interação Social' },
     { id: '3', image: 'teaching.jpeg', title: 'Sala de Aula' },
