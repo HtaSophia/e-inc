@@ -20,6 +20,14 @@ export class SearchComponent {
         if (this.searchService.searchText) {
             this.searchForm.patchValue({ search: this.searchService.searchText });
         }
+
+        this.searchService.onTextChange().subscribe((text) => {
+            const currentText = this.searchForm.get('search')?.value as string;
+
+            if (text !== currentText) {
+                this.searchForm.patchValue({ search: text }, { emitEvent: false });
+            }
+        });
     }
 
     public onPressEnter(): void {
