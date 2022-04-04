@@ -1,22 +1,24 @@
 import { Injectable } from '@angular/core';
-import { Resolve, RouterStateSnapshot, ActivatedRouteSnapshot, Params } from '@angular/router';
+import { Resolve, RouterStateSnapshot, ActivatedRouteSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
-import { Article } from '../article';
+import { SearchService } from '../../shared/components/search/search.service';
+import { Article, ArticleParams } from '../article';
 import { ArticleService } from '../article.service';
-
-type ArticleParams = Params & { topicId?: string };
 
 @Injectable({
     providedIn: 'root',
 })
 export class ArticleResolver implements Resolve<Article[]> {
-    constructor(private readonly articleService: ArticleService) {}
+    constructor(private readonly articleService: ArticleService, private readonly searchService: SearchService) {}
 
     public resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): Observable<Article[]> {
         const params: ArticleParams = route.queryParams;
+        const { searchText } = this.searchService;
 
-        const article$ = this.articleService.getAllByTopicId(params.topicId);
+        if (searchText) {
+            return this.articleService.getAllByText(searchText);
+        }
 
-        return article$;
+        return this.articleService.getAllByTopicId(params.topicId);
     }
 }
