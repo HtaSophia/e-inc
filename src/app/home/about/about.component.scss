@@ -1,4 +1,17 @@
-.square {
-    border: 1px solid grey;
-}
+.c-about {
+    .b-options {
+        margin: auto;
 
+        .b-option {
+            gap: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .b-options {
+            p {
+                max-width: 15rem;
+            }
+        }
+    }
+}

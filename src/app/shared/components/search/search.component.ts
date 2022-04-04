@@ -10,7 +10,7 @@ import { SearchService } from './search.service';
 export class SearchComponent {
     public searchForm!: FormGroup;
 
-    public placeholder = 'Pesquisar...';
+    public placeholder = 'Informe sua busca...';
 
     constructor(private readonly formBuilder: FormBuilder, private readonly searchService: SearchService) {}
 

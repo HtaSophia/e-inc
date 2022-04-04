@@ -17,6 +17,10 @@ html {
     padding-top: 80px;
 }
 
+.background-primary {
+    background-color: $primary-color;
+}
+
 //
 // Navbar
 //
@@ -35,7 +39,7 @@ html {
                 &:hover,
                 &:active {
                     color: white !important;
-                    background-color: $secondary-color !important;
+                    background-color: $primary-color !important;
                 }
             }
         }

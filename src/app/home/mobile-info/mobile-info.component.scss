@@ -1,0 +1,49 @@
+.c-mobile-info {
+    .b-steps {
+        .b-step {
+            gap: 20px;
+
+            &__mobile {
+                flex: 1;
+                text-align: center;
+            }
+
+            .b-step-infos {
+                flex: 1;
+                min-width: 50%;
+
+                .b-step-info {
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    gap: 15px;
+
+                    p {
+                        max-width: 15rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &__small-text {
+        padding: 1rem 5rem;
+    }
+
+    @media (min-width: 768px) {
+        .b-step {
+            &:last-of-type {
+                gap: 0 !important;
+            }
+
+            &__mobile {
+                flex: 0.8 !important;
+                text-align: end !important;
+            }
+
+            .b-step-info {
+                justify-content: start !important;
+            }
+        }
+    }
+}
