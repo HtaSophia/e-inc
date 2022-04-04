@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { ArticleRoutingModule } from './article-routing.module';
 import { ArticleComponent } from './article.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 import { ArticleCardComponent } from './article-card/article-card.component';
-import { ArticleDetailsComponent } from './article-details/article-details.component';
 
 @NgModule({
-    declarations: [ArticleComponent, ArticleListComponent, ArticleCardComponent, ArticleDetailsComponent],
-    imports: [CommonModule, ArticleRoutingModule],
+    declarations: [ArticleComponent, ArticleListComponent, ArticleCardComponent],
+    imports: [CommonModule, RouterModule, ArticleRoutingModule],
 })
 export class ArticleModule {}

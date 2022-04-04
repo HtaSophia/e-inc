@@ -6,4 +6,8 @@
     &:hover {
         color: white !important;
     }
+
+    &.disabled {
+        pointer-events: none !important;
+    }
 }

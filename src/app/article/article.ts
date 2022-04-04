@@ -5,6 +5,7 @@ export interface Article {
     title: string;
     htmlContent: string;
     topicId: string;
+    disabled?: boolean;
 }
 
 export type ArticleParams = Params & { topicId?: string };

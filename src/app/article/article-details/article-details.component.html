@@ -1,1 +1,74 @@
-<p>article-details works!</p>
+<div class="wrapper c-article-details">
+    <!-- <div class="content" [innerHtml]="article.htmlContent | safeHtml"></div> -->
+
+    <div *ngIf="article.htmlContent">
+        <div class="b-header text-center py-5">
+            <h2>Informações sobre TEA</h2>
+            <h6 class="c-text-subtitle">Informações sobre TEA</h6>
+        </div>
+
+        <div class="divider px-5">
+            <hr />
+        </div>
+
+        <section class="information p-5">
+            <div class="info">
+                <h3>O que é?</h3>
+                <p>
+                    O Transtorno do Espectro Autista, popularmente conhecido pelo termo autismo, é um dos transtornos do
+                    neurodesenvolvimento o qual o indivíduo nasce com essa condição é comumente já apresenta sinais
+                    desde os primeiros anos de vida. Sua causa ainda não foi totalmente definida. Há estudos recentes
+                    que apontam para uma questão genética, mas ainda são considerados também os fatores ambientais,
+                    condição médica, entre outros.
+                </p>
+            </div>
+
+            <div class="info d-flex">
+                <div class="info__text">
+                    <h3>O Manual Diagnóstico e Estatístico de Transtornos Mentais</h3>
+                    <p>
+                        O DSM-5 estabelece que há dois critérios determinantes para o diagnóstico, são eles: déficits ou
+                        atipicidades na comunicação e na interação social, e padrões restritos e repetitivos de
+                        comportamento, atividades e interesses.
+                    </p>
+                </div>
+
+                <div class="info__image text-center">
+                    <img
+                        class="img-fluid"
+                        src="assets/images/dsm5.jpg"
+                        alt="Manual Diagnóstico e Estatístico de Transtornos Mentais"
+                    />
+                </div>
+            </div>
+
+            <div class="info d-flex">
+                <div class="info__image text-center">
+                    <img
+                        class="img-fluid rounded"
+                        src="assets/images/levels.png"
+                        alt="Manual Diagnóstico e Estatístico de Transtornos Mentais"
+                    />
+                    <small class="c-text-subtitle">
+                        <p>
+                            Imagem retirada do instagram:
+                            <a href="https://www.instagram.com/p/CYcXLmRtxVL/" target="_blank">
+                                @carolsouza_autistando</a
+                            >
+                        </p>
+                    </small>
+                </div>
+
+                <div class="info__text">
+                    <h3>Características</h3>
+                    <p>
+                        Há características que também tem correlação com o autismo, as mesmas podem estar englobadas nos
+                        critérios do parágrafo acima, como: hiporreatividade e hiperatividade sensorial, dificuldades
+                        com relação a flexibilidade de rotinas e rituais, reprodução de movimentos estereotipados e
+                        ecolalia. Apesar de terem semelhanças, cada caso é único.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

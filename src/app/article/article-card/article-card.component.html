@@ -1,4 +1,9 @@
-<div class="c-article-card py-2 px-3" (click)="onCardClick()" [style.background-color]="backgroundColor">
+<div
+    class="c-article-card py-2 px-3"
+    (click)="onCardClick()"
+    [style.background-color]="backgroundColor"
+    [ngClass]="{ disabled: article.disabled }"
+>
     <span class="c-article-card__title">
         <b>{{ article?.title }}</b>
     </span>
