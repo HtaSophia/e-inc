@@ -1,9 +1,10 @@
-# e-inc
-Projeto final de TCC para minha graduação em Ciência da Computação na Universidade Estadual da Paraíba.
-O projeto ainda está em português, mas planejo adicionar uma opção de inglês também.
+# E-INC
+Projeto final de TCC para minha graduação em Ciência da Computação na Universidade Estadual da Paraíba. Projeto "E-INC: UMA FERRAMENTA PARAAUXILIAR NA INCLUSÃO DE CRIANÇAS QUE ESTÃO NO ESPECTRO AUTISTA NO ENSINO BÁSICO". O projeto ainda está em português, mas planejo adicionar uma opção de inglês também.
 
-Final project for my Bachelor's degree in Computer Science at the Paraíba State University.
-The project is still in Portuguese, but I plan to add an English option as well.
+Artigo do TCC disponível no link: https://dspace.bc.uepb.edu.br/jspui/handle/123456789/26654
+
+Final project for my Bachelor's degree in Computer Science at the Paraíba State University. Project "E-INC: A TOOL TO ASSIST THE INCLUSION OF CHILDREN ON THE AUTISTIC
+SPECTRUM IN ELEMENTARY SCHOOL". The project is still in Portuguese, but I plan to add an English option as well.
 
 ## Status
 Este projeto está em sua fase inicial. Foi desenvolvido apenas o protótipo e serão realizadas melhorias.
