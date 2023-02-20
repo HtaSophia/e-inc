@@ -1,5 +1,5 @@
 # E-INC
-Projeto final de TCC para minha graduação em Ciência da Computação na Universidade Estadual da Paraíba. Projeto "E-INC: UMA FERRAMENTA PARAAUXILIAR NA INCLUSÃO DE CRIANÇAS QUE ESTÃO NO ESPECTRO AUTISTA NO ENSINO BÁSICO". O projeto ainda está em português, mas planejo adicionar uma opção de inglês também.
+Projeto final de TCC para minha graduação em Ciência da Computação na Universidade Estadual da Paraíba. Projeto "E-INC: UMA FERRAMENTA PARA AUXILIAR NA INCLUSÃO DE CRIANÇAS QUE ESTÃO NO ESPECTRO AUTISTA NO ENSINO BÁSICO". O projeto ainda está em português, mas planejo adicionar uma opção de inglês também.
 
 Artigo do TCC disponível no link: https://dspace.bc.uepb.edu.br/jspui/handle/123456789/26654
 
