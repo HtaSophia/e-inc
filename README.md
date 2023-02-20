@@ -1,27 +1,27 @@
-# EInc
+# e-inc
+Projeto final de TCC para minha graduação em Ciência da Computação na Universidade Estadual da Paraíba.
+O projeto ainda está em português, mas planejo adicionar uma opção de inglês também.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Final project for my Bachelor's degree in Computer Science at the Paraíba State University.
+The project is still in Portuguese, but I plan to add an English option as well.
 
-## Development server
+## Status
+Este projeto está em sua fase inicial. Foi desenvolvido apenas o protótipo e serão realizadas melhorias.
+
+This project is in its initial phase. Only the prototype has been developed and improvements will be made.
+
+## Design
+Link para o design que estou desenvolvendo (ainda estou aprendendo): https://www.figma.com/file/KfBvJxcjRAbwsamrD7yHWQ/E-INC?node-id=0%3A1&t=PLNcvMr1qkjgA89k-1
+
+Link to the design I am developing - I am still learning: https://www.figma.com/file/KfBvJxcjRAbwsamrD7yHWQ/E-INC?node-id=0%3A1&t=PLNcvMr1qkjgA89k-1
+
+
+# Tecnologias/Technologies
+
+- Angular 13.2.5
+- Rxjs 7.5.0
+- Bootstrap 5.1.3
+
+## Development
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
