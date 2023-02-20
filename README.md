@@ -6,6 +6,9 @@ Artigo do TCC disponível no link: https://dspace.bc.uepb.edu.br/jspui/handle/12
 Final project for my Bachelor's degree in Computer Science at the Paraíba State University. Project "E-INC: A TOOL TO ASSIST THE INCLUSION OF CHILDREN ON THE AUTISTIC
 SPECTRUM IN ELEMENTARY SCHOOL". The project is still in Portuguese, but I plan to add an English option as well.
 
+## Demo
+https://e-inc-be5b8.web.app/home
+
 ## Status
 Este projeto está em sua fase inicial. Foi desenvolvido apenas o protótipo e serão realizadas melhorias.
 
